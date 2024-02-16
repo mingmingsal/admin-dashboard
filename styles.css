@@ -121,6 +121,7 @@ main {
     grid-template-rows: 1fr 1fr;
     padding: 20px;
     gap: 30px;
+    background-color: #bae6fd;
 }
 
 .projects {
@@ -135,18 +136,20 @@ main {
 }
 
 .card {
-    height: 200px;
+    height: 250px;
     border-left: 5px solid orange;
-    padding: 10px;
+    padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
 }
 
 .card p {
     width: 300px;
+    color: #a8a29e;
 }
 
 .announcements,
-.padding {
+.trending {
     grid-column: 2/3;
 }
 
@@ -154,9 +157,6 @@ main {
     grid-row: 1/2;
 }
 
-.trending {
-    grid-row: 2/3;
-}
 
 .account svg {
     height: 50px;
@@ -202,10 +202,11 @@ main {
 .rightHand button{
     background-color: #0ea5e9;
     color: white;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 900;
     border: 0px;
     border-radius: 40px;
+    padding: 20px 40px;
 }
 .announcementContainer ul {
     display: grid;
@@ -213,6 +214,7 @@ main {
     list-style: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
+    background-color: white;
 }
 .announcementContainer ul li {
     border-bottom: 2px solid #E0E0E0;
@@ -226,7 +228,7 @@ h2{
     padding: 20px 0px;
 }
 .trendingContainer {
-
+    background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 30px;
 }
