@@ -197,7 +197,9 @@ main {
 }
 
 .profileName {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    align-self: flex-start;
 }
 .rightHand button{
     background-color: #0ea5e9;
@@ -240,7 +242,7 @@ h2{
 .suggested img {
     align-self: stretch;
 }
-.profileName {
+.suggestedName {
     font-size: 1.3rem;
 }
 .subtext {
